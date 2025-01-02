@@ -1,6 +1,6 @@
 import React from 'react';
 import { usePYQ } from '../context/PYQContext';
-import { FileDown } from 'lucide-react';
+import { Download  } from 'lucide-react';
 
 export default function PYQList() {
   const { filteredPYQs } = usePYQ();
@@ -22,7 +22,7 @@ export default function PYQList() {
         >
           <div className="flex justify-between items-start mb-4">
             <div>
-              <h3 className="text-lg font-semibold text-gray-900">{pyq.subject}</h3>
+              <h3 className="text-lg font-semibold text-black">{pyq.subject}</h3>
               <p className="text-sm text-gray-600">{pyq.title}</p>
             </div>
             <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
@@ -34,9 +34,9 @@ export default function PYQList() {
           
           <a
             href={pyq.downloadUrl}
-            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-black"
           >
-            <FileDown className="w-4 h-4 mr-2" />
+            <Download  className="w-4 h-4 mr-2" />
             Download
           </a>
         </div>

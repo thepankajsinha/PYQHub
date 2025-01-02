@@ -10,12 +10,12 @@ export default function Filters() {
   return (
     <div className="flex flex-col md:flex-row gap-4 mb-8">
       <div className="flex-1">
-        <label htmlFor="branch" className="block text-sm font-medium text-gray-700 mb-2">
+        <label htmlFor="branch" className="block text-xl font-medium text-blue-700 mb-2">
           Branch
         </label>
         <select
           id="branch"
-          className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          className="w-full p-2 border border-gray-300 rounded-md "
           value={selectedBranch}
           onChange={(e) => setSelectedBranch(e.target.value)}
         >
@@ -29,12 +29,12 @@ export default function Filters() {
       </div>
 
       <div className="flex-1">
-        <label htmlFor="year" className="block text-sm font-medium text-gray-700 mb-2">
+        <label htmlFor="year" className="block text-xl font-medium text-blue-700 mb-2">
           Year
         </label>
         <select
           id="year"
-          className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          className="w-full p-2 border border-gray-300 rounded-md "
           value={selectedYear || ''}
           onChange={(e) => setSelectedYear(e.target.value ? Number(e.target.value) : null)}
         >
