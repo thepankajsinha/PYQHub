@@ -9,7 +9,7 @@ export default function Filters() {
 
   return (
     <div className="flex flex-col md:flex-row gap-4 mb-8">
-      <div className="flex-1">
+      <div className="w-full md:flex-1">
         <label htmlFor="branch" className="block text-xl font-medium text-blue-700 mb-2">
           Branch
         </label>
@@ -28,7 +28,7 @@ export default function Filters() {
         </select>
       </div>
 
-      <div className="flex-1">
+      <div className="w-full md:flex-1">
         <label htmlFor="year" className="block text-xl font-medium text-blue-700 mb-2">
           Year
         </label>

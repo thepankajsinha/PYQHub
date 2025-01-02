@@ -9,12 +9,10 @@ function HomePage() {
     <div className="bg-gradient-to-t from-gray-700 via-gray-900 to-black min-h-screen bg-gray-50">
       <Navbar/>
       <Header/>
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="rounded-lg shadow-sm p-6">
-            <Filters />
-            <PYQList />
-          </div>
-        </main>
+        <div className='p-4 md:p-8'>
+          <Filters />
+          <PYQList />
+        </div>
       </div>
   )
 }
