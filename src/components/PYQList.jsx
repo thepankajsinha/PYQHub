@@ -20,10 +20,11 @@ export default function PYQList() {
           key={pyq.id}
           className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
         >
-          <div className="flex justify-between items-start mb-4">
+          <div className="flex justify-between items-start mb-1">
             <div>
               <h3 className="text-lg font-semibold text-black">{pyq.subject}</h3>
-              <p className="text-sm text-gray-600">{pyq.title}</p>
+              <p className="text-sm text-gray-600">{pyq.examtype}</p>
+              <p className="text-sm text-gray-600">Semester: {pyq.semester}</p>
             </div>
             <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
               {pyq.year}

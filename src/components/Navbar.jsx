@@ -12,7 +12,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <div className="text-4xl font-bold">
-          <Link to={"/"}><span className=" text-3xl md:text-4xl text-blue-900">PYQHub</span></Link>
+          <Link to={"https://pyq-hub.vercel.app"}><span className=" text-3xl md:text-4xl text-blue-900">PYQHub</span></Link>
         </div>
 
 

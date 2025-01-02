@@ -4,7 +4,8 @@ const pyqData = [
     year: 2023,
     branch: "Computer Science",
     subject: "Data Structures",
-    title: "End Semester Examination",
+    examtype: "End Semester Examination",
+    semester: "4th",
     downloadUrl: "#"
   },
   {
@@ -12,25 +13,10 @@ const pyqData = [
     year: 2023,
     branch: "Electrical",
     subject: "Circuit Theory",
-    title: "Mid Semester Examination",
+    examtype: "Mid Semester Examination",
+    semester: "4th",
     downloadUrl: "#"
-  },
-  {
-    id: 3,
-    year: 2022,
-    branch: "Computer Science",
-    subject: "Algorithms",
-    title: "End Semester Examination",
-    downloadUrl: "#"
-  },
-  {
-    id: 4,
-    year: 2022,
-    branch: "Mechanical",
-    subject: "Thermodynamics",
-    title: "End Semester Examination",
-    downloadUrl: "#"
-  },
+  }
 ];
 
 export default pyqData;
